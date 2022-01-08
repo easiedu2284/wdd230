@@ -1,15 +1,17 @@
 header {
-  background-color: aquamarine;
+  background-color: rgb(39, 117, 91);
   margin: 2px auto;
   text-align: center;
-  color: rgb(31, 31, 27);
-  padding: 3em;
+  color: rgb(241, 241, 237);
+  padding: 2em;
   border-radius: 1em;
-  box-shadow: 10px grey;
 }
+h1.name {
+  font-size: 3em;
+}
+
 img {
   float: left;
-  box-shadow: 10px grey;
 }
 body {
   max-width: 700px;
@@ -26,9 +28,15 @@ main {
   font-family: "Indie Flower", cursive;
 }
 footer {
-  background-color: aquamarine;
+  background-color: rgb(39, 117, 91);
   margin: 70px auto;
   text-align: center;
-  padding: 20px;
+  padding: 5px;
   border-radius: 1em;
+  color: lavender;
+  font-size: 140%;
+}
+
+#update {
+  color: lightcoral;
 }
